@@ -1,0 +1,10 @@
+# Example: the baseline of a spec's comparison data.
+topics:
+  version-history: {en: Version history, fr: Historique des versions}
+rows:
+  - id: DOC-032
+    topic: version-history
+    requirement: {en: Each page ends with a document history., fr: Chaque page se termine par un historique du document.}
+    international: {en: User documentation records its version and changes., fr: La documentation d'utilisation consigne sa version et ses changements.}
+    international_source: {title: "ISO/IEC/IEEE 26514", version: "2022", date: "2022-01", url: "https://www.iso.org/standard/77451.html", archive: "https://web.archive.org/web/2026/https://www.iso.org/standard/77451.html"}
+    fpsot: {en: "A table of version, date and change at the end of every page.", fr: "Un tableau de la version, de la date et du changement à la fin de chaque page."}

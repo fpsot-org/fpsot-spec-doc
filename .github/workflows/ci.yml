@@ -1,0 +1,70 @@
+# SPDX-License-Identifier: Apache-2.0
+name: ci
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+  push:
+    branches: [main]
+    tags: ['v*']
+permissions:
+  contents: read
+env:
+  # Requirement ID prefix of this specification.
+  SPEC_PREFIX: DOC
+jobs:
+  prefix:
+    runs-on: ubuntu-latest
+    outputs:
+      value: ${{ steps.p.outputs.value }}
+    steps:
+      - id: p
+        run: echo "value=$SPEC_PREFIX" >> "$GITHUB_OUTPUT"
+  spec-check:
+    if: github.ref_type != 'tag'
+    needs: prefix
+    uses: fpsot-org/GitHub-Actions/.github/workflows/spec-check.yml@v0
+    with:
+      prefix: ${{ needs.prefix.outputs.value }}
+  diagrams:
+    if: github.ref_type != 'tag'
+    uses: fpsot-org/GitHub-Actions/.github/workflows/diagrams.yml@v0
+  pr-title:
+    if: github.event_name == 'pull_request'
+    uses: fpsot-org/GitHub-Actions/.github/workflows/pr-title.yml@v0
+    permissions:
+      pull-requests: read
+  signed-commits:
+    if: github.event_name == 'pull_request'
+    uses: fpsot-org/GitHub-Actions/.github/workflows/signed-commits.yml@v0
+    permissions:
+      contents: read
+      pull-requests: read
+  release:
+    if: github.ref_type == 'tag'
+    needs: prefix
+    uses: fpsot-org/GitHub-Actions/.github/workflows/spec-release.yml@v0
+    with:
+      prefix: ${{ needs.prefix.outputs.value }}
+  model-test:
+    if: github.ref_type != 'tag'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: fpsot-org/GitHub-Actions
+          ref: v0
+          path: .fpsot-tools
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version-file: .fpsot-tools/tools/go.mod
+          cache: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+      - run: pip install --quiet linkml==1.12.1
+      - run: go build -o "$RUNNER_TEMP/bin/" ./cmd/jurisgen
+        working-directory: .fpsot-tools/tools
+      - run: bash model/test-model.sh
+        env:
+          JURISGEN: ${{ runner.temp }}/bin/jurisgen

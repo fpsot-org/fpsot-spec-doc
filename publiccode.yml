@@ -1,0 +1,39 @@
+publiccodeYmlVersion: "0.4"
+name: FPSOT documentation specification
+url: "https://github.com/fpsot-org/fpsot-spec-doc"
+platforms:
+  - web
+categories:
+  - it-development
+developmentStatus: concept
+softwareType: "standalone/other"
+description:
+  en:
+    shortDescription: How FPSOT specifications are documented, organised and published.
+    longDescription: >
+      The FPSOT documentation specification sets the files every FPSOT
+      specification repository holds, the page types, the comparison of
+      each requirement with the rules of each jurisdiction, and the HTML
+      and PDF outputs. It defines the jurisdiction data model in LinkML.
+    features:
+      - Repository files and page types
+      - Jurisdiction comparison model
+  fr:
+    shortDescription: Comment documenter, organiser et publier les spécifications de FPSOT.
+    longDescription: >
+      La spécification de documentation de FPSOT fixe les fichiers de
+      chaque dépôt de spécification, les types de pages, la comparaison de
+      chaque exigence avec les règles de chaque territoire, et les sorties
+      HTML et PDF. Elle définit le modèle de données des territoires en LinkML.
+    features:
+      - Fichiers du dépôt et types de pages
+      - Modèle de comparaison des territoires
+legal:
+  license: Community-Spec-1.0
+maintenance:
+  type: community
+localisation:
+  localisationReady: true
+  availableLanguages:
+    - en
+    - fr

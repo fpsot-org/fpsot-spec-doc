@@ -1,0 +1,24 @@
+= FPSOT documentation specification
+
+This specification sets how FPSOT specifications are documented, organised and published.
+It is a draft: the normative text comes in version 0.1.0.
+
+== Implement this spec
+
+Read the normative text in `spec/en/` or `spec/fr/`.
+Each requirement has an ID, such as `DOC-001`.
+
+== Adopt this spec
+
+Read the guides in `docs/modules/en/pages/` or `docs/modules/fr/pages/`.
+
+== Jurisdiction model
+
+`model/jurisdiction.yaml` is the LinkML model of the comparison data that every FPSOT specification keeps in `jurisdictions/`.
+`model/examples/` holds valid and invalid examples, and `model/test-model.sh` checks them.
+
+== Licence
+
+The specification and the model are under the Community Specification License 1.0.
+Source code is under the Apache License 2.0.
+See `LICENSE.md` and `NOTICE`.

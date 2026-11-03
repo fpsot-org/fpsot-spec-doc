@@ -1,0 +1,9 @@
+# Invalid example: missing-archive.yaml
+code: CA
+name: {en: Canada, fr: Canada}
+rows:
+  - id: DOC-032
+    text: {en: Pages show a "Date modified"., fr: Les pages affichent une « Date de modification ».}
+    status: looser
+    source: {title: Canada.ca Content Style Guide, version: "2024", url: "https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html"}
+    last_checked: "2026-11-02"

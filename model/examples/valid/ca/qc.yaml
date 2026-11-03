@@ -1,0 +1,9 @@
+# Example: a subdivision file (ISO 3166-2 code), in a folder named after its country.
+code: CA-QC
+name: {en: Québec, fr: Québec}
+rows:
+  - id: DOC-032
+    text: {en: No rule found., fr: Aucune règle trouvée.}
+    status: not-covered
+    source: {title: Québec.ca, url: "https://www.quebec.ca/", archive: "https://web.archive.org/web/2026/https://www.quebec.ca/"}
+    last_checked: "2026-11-02"
