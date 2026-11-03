@@ -1,0 +1,18 @@
+@startuml drill-down
+' SPDX-License-Identifier: Community-Spec-1.0
+' Drill-down of a topic page, from the FPSOT default to a subdivision (DOC-020).
+skinparam monochrome true
+skinparam shadowing false
+rectangle "FPSOT default" as d
+rectangle "International baseline" as i
+rectangle "Region (UN M49)" as r
+rectangle "Regional bloc" as b
+rectangle "Country (ISO 3166-1)" as c
+rectangle "Subdivision (ISO 3166-2)" as s
+d -down-> i
+i -down-> r
+r -down-> b
+b -down-> c
+r -right-> c : no bloc
+c -down-> s
+@enduml

@@ -1,0 +1,31 @@
+# Comparison data. The format is defined in model/jurisdiction.yaml.
+topics:
+  required-documents: {en: Required documents, fr: Documents obligatoires}
+  page-structure: {en: Page structure, fr: Structure des pages}
+  version-history: {en: Version and history, fr: Version et historique}
+  accessible-pdf: {en: Accessible PDF, fr: PDF accessible}
+rows:
+  - id: DOC-001
+    topic: required-documents
+    requirement: {en: Each repository holds the required files., fr: Chaque dépôt contient les fichiers obligatoires.}
+    international: {en: "Contribution guidelines and documented governance are required. A code of conduct is optional.", fr: "Un guide de contribution et une gouvernance documentée sont exigés. Le code de conduite est facultatif."}
+    international_source: {title: "Standard for Public Code, Welcome contributors", version: "0.8.0", date: "2024-01-09", url: "https://standard.publiccode.net/criteria/welcome-contributors.html", archive: "https://web.archive.org/web/20260526003207/https://standard.publiccode.net/criteria/welcome-contributors.html"}
+    fpsot: {en: "README, licence, changelog, contributing guide, governance, code of conduct, publiccode.yml and the other listed files.", fr: "README, licence, journal des modifications, guide de contribution, gouvernance, code de conduite, publiccode.yml et les autres fichiers de la liste."}
+  - id: DOC-010
+    topic: page-structure
+    requirement: {en: Each docs page has one page type., fr: Chaque page de documentation a un seul type.}
+    international: {en: "Diátaxis sorts documentation into tutorials, how-to guides, reference and explanation.", fr: "Diátaxis classe la documentation en tutoriels, guides pratiques, référence et explication."}
+    international_source: {title: "Diátaxis, A systematic approach to technical documentation authoring", url: "https://diataxis.fr/", archive: "https://web.archive.org/web/20261103010307/https://diataxis.fr/"}
+    fpsot: {en: "One Diátaxis type per page. Topics drill down from the default to each jurisdiction.", fr: "Un seul type Diátaxis par page. Les sujets descendent de la valeur par défaut jusqu'à chaque collectivité publique."}
+  - id: DOC-031
+    topic: version-history
+    requirement: {en: Each page shows its version and date., fr: Chaque page affiche sa version et sa date.}
+    international: {en: "Each document has a foreword. In a revision, it says what it replaces and lists the main changes.", fr: "Chaque document a un avant-propos. Dans une révision, il indique ce qu'il remplace et énumère les principaux changements."}
+    international_source: {title: "ISO/IEC Directives, Part 2, Principles and rules for the structure and drafting of ISO and IEC documents", date: "2021", url: "https://www.iso.org/sites/directives/current/part2/index.xhtml", archive: "https://web.archive.org/web/20261017090630/https://www.iso.org/sites/directives/current/part2/index.xhtml"}
+    fpsot: {en: "Version and last-updated date on each page, from Git, and a document history at the end.", fr: "Version et date de mise à jour sur chaque page, tirées de Git, et un historique du document à la fin."}
+  - id: DOC-042
+    topic: accessible-pdf
+    requirement: {en: Specifications are published as tagged PDF., fr: Les spécifications sont publiées en PDF balisé.}
+    international: {en: "PDF/UA-1 defines accessible PDF on the PDF 1.7 base. PDF/UA-2, on PDF 2.0, exists since 2024.", fr: "PDF/UA-1 définit le PDF accessible sur la base de PDF 1.7. PDF/UA-2, sur PDF 2.0, existe depuis 2024."}
+    international_source: {title: "ISO 14289-1, Use of ISO 32000-1 (PDF/UA-1)", version: "ISO 14289-1:2014", date: "2014-12", url: "https://www.iso.org/standard/64599.html", archive: "https://web.archive.org/web/20261014161702/https://www.iso.org/standard/64599.html"}
+    fpsot: {en: "PDF/UA-1 and PDF/A-2b.", fr: "PDF/UA-1 et PDF/A-2b."}

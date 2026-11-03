@@ -1,4 +1,0 @@
-= Guide
-:translation-status: pending
-
-Cette page explique la spécification aux personnes qui l’adoptent.

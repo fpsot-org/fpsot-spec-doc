@@ -1,0 +1,33 @@
+= Pages
+include::_fpsot-terms.adoc[]
+
+[[DOC-010]]
+*DOC-010.* Chaque page de guide DOIT déclarer un type de page dans un attribut `:page-type:`.
+Le type DOIT être `tutorial`, `how-to`, `reference` ou `explanation`.
+Ce sont les quatre types du modèle Diátaxis : tutoriel, guide pratique, référence et explication.
+Une page qui a un seul but est plus facile à rédiger et à trouver.
+
+[[DOC-011]]
+*DOC-011.* Un dépôt DOIT garder son texte normatif dans `spec/en/` et `spec/fr/`.
+Il DOIT garder ses guides dans la structure de dossiers d'Antora, sous `docs/modules/en/` et `docs/modules/fr/`.
+Une page DOIT porter le même nom de fichier dans les deux langues.
+Le site Web recueille alors chaque spécification de la même façon.
+
+[[DOC-030]]
+*DOC-030.* Les auteurs DOIVENT dessiner chaque diagramme sous forme de code, par exemple en PlantUML.
+Chaque image DOIT avoir un texte de remplacement.
+Les personnes qui révisent peuvent alors lire et modifier un diagramme comme du texte.
+Le texte de remplacement donne la même information aux personnes qui ne voient pas l'image.
+
+[[DOC-040]]
+*DOC-040.* Une abréviation DOIT s'afficher comme un élément `abbr` en {abbr-html-first}, lié au glossaire.
+La spécification de rédaction fixe la façon de l'écrire.
+Les lecteurs d'écran et le pointeur donnent alors la forme complète sur n'importe quelle page.
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-02 |Première version.
+|===

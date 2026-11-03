@@ -1,0 +1,45 @@
+= Ajouter une collectivité publique
+:page-type: how-to
+include::_fpsot-terms.adoc[]
+
+Ce guide montre comment comparer une spécification aux règles d'une collectivité publique de plus.
+
+. Trouvez le code {abbr-iso-first} 3166 de la collectivité publique, par exemple `CA` pour le Canada ou `CA-QC` pour le Québec.
+
+. Créez le fichier `jurisdictions/<cc>.yaml` pour un pays, ou `jurisdictions/<cc>/<sub>.yaml` pour une subdivision, en minuscules.
+
+. Remplissez `code` et `name`, puis ajoutez une ligne par exigence de `jurisdictions/baseline.yaml`.
+
+. Pour chaque ligne, lisez d'abord la source officielle et notez la version qu'elle indique.
+
+. Enregistrez une nouvelle copie archivée de la source, par exemple avec la Wayback Machine, et notez son adresse.
+
+. Résumez la règle dans vos propres mots, en français et en anglais.
+
+. Indiquez le statut : `same`, `stricter`, `looser` ou `not-covered`.
+
+. Mettez dans `last_checked` la date de votre lecture de la source, entre guillemets.
+
+. Ouvrez une demande de tirage.
+Les vérifications valident alors le fichier et produisent les pages.
+
+== Exemple
+
+----
+code: CA-QC
+name: {en: Québec, fr: Québec}
+rows:
+  - id: DOC-032
+    text: {en: No rule found., fr: Aucune règle trouvée.}
+    status: not-covered
+    source: {title: Québec.ca, url: "https://www.quebec.ca/", archive: "https://web.archive.org/web/2026/https://www.quebec.ca/"}
+    last_checked: "2026-11-02"
+----
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-02 |Première version.
+|===

@@ -1,0 +1,56 @@
+= Référence des données de collectivité publique
+:page-type: reference
+include::_fpsot-terms.adoc[]
+
+Cette page énumère les champs des données de comparaison.
+Le modèle LinkML `model/jurisdiction.yaml` en est la définition normative.
+
+== Référence
+
+Le fichier `jurisdictions/baseline.yaml` contient les sujets et les lignes.
+
+[cols="1,1,3",options="header"]
+|===
+|Champ |Obligatoire |Contenu
+|`topics` |oui |L'identifiant de chaque sujet, par exemple `version-history`, avec son nom en `en` et en `fr`.
+|`rows[].id` |oui |L'identifiant de l'exigence, par exemple `DOC-032`.
+|`rows[].topic` |oui |L'identifiant du sujet de la ligne.
+|`rows[].requirement` |oui |L'exigence en bref, en `en` et en `fr`.
+|`rows[].international` |oui |Ce que dit la référence internationale, en `en` et en `fr`.
+|`rows[].international_source` |oui |La source de la référence internationale.
+|`rows[].fpsot` |oui |La valeur par défaut de FPSOT, en `en` et en `fr`.
+|===
+
+== Fichier de collectivité publique
+
+[cols="1,1,3",options="header"]
+|===
+|Champ |Obligatoire |Contenu
+|`code` |oui |Le code {abbr-iso-first} 3166 en majuscules. Il correspond au chemin du fichier.
+|`name` |oui |Le nom en `en` et en `fr`.
+|`rows[].id` |oui |Un identifiant d'exigence de la référence.
+|`rows[].text` |oui |Ce que dit la collectivité publique, en `en` et en `fr`.
+|`rows[].status` |oui |`same`, `stricter`, `looser` ou `not-covered`.
+|`rows[].source` |oui |La source de la règle de la collectivité publique.
+|`rows[].last_checked` |oui |La date de lecture de la source, entre guillemets : `"2026-11-02"`.
+|===
+
+== Source
+
+[cols="1,1,3",options="header"]
+|===
+|Champ |Obligatoire |Contenu
+|`title` |oui |Le titre du document.
+|`version` |non |La version ou l'édition que l'éditeur indique.
+|`date` |non |La date de publication ou de révision que l'éditeur indique.
+|`url` |oui |L'adresse officielle.
+|`archive` |oui |L'adresse d'une copie archivée.
+|===
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-02 |Première version.
+|===

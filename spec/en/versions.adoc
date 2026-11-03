@@ -1,0 +1,24 @@
+= Versions and history
+include::_fpsot-terms.adoc[]
+
+[[DOC-031]]
+*DOC-031.* Each page MUST show the version of the specification it belongs to and the date it last changed.
+The date MUST come from the version control history.
+A reader can then tell whether a printed or saved page is current.
+
+[[DOC-032]]
+*DOC-032.* Each page MUST end with a document history section.
+Each row gives a version, a date and what changed in meaning.
+Typo fixes stay in the version control history only.
+
+[[DOC-033]]
+*DOC-033.* Each repository MUST keep a `CHANGELOG.md` for the specification as a whole.
+The changelog tells implementers what to update for each release.
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-02 |First version.
+|===
