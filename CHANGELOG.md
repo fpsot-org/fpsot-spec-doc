@@ -6,6 +6,13 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-11-03
+
+### Fixed
+
+- DOC-020: the regional bloc level is optional (MAY), since the comparison data has no bloc yet.
+- DOC-025: a citation gives the version and the date that the publisher states. Many sources state only one, or neither.
+
 ## [0.1.0] - 2026-11-02
 
 ### Added

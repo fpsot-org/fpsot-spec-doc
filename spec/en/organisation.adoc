@@ -1,13 +1,13 @@
 = Organisation by jurisdiction
 include::_fpsot-terms.adoc[]
 
-Officials need to see quickly how an {abbr-fpsot-first} rule compares with the rule of their own government.
+Officials need to see quickly how a {abbr-fpsot-first} rule compares with the rule of their own government.
 Every specification therefore organises its topics the same way.
 
 [[DOC-020]]
 *DOC-020.* Each topic MUST start from the {abbr-fpsot} default, then drill down by jurisdiction.
-The levels are the international baseline, then the region and the regional bloc.
-Then come the country and the subdivision.
+The levels are the international baseline, the region, the country and the subdivision.
+A regional bloc, such as the European Union, MAY add a level between the region and the country.
 Regions follow the M49 standard of the United Nations.
 Countries use {abbr-iso-first} 3166-1 codes and subdivisions use {abbr-iso} 3166-2 codes.
 One shared path lets a reader learn the layout once and use it in every specification.
@@ -61,4 +61,5 @@ They do not certify that anyone complies with a law.
 |===
 |Version |Date |Change
 |0.1.0 |2026-11-02 |First version.
+|0.1.1 |2026-11-03 |DOC-020: the regional bloc level is optional, since the comparison data has no bloc yet.
 |===

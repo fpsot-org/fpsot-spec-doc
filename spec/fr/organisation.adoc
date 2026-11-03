@@ -6,8 +6,8 @@ Chaque spécification organise donc ses sujets de la même façon.
 
 [[DOC-020]]
 *DOC-020.* Chaque sujet DOIT partir de la valeur par défaut de {abbr-fpsot}, puis descendre par collectivité publique.
-Les niveaux sont la référence internationale, puis la région et le bloc régional.
-Viennent ensuite le pays et la subdivision.
+Les niveaux sont la référence internationale, la région, le pays et la subdivision.
+Un bloc régional, comme l'Union européenne, PEUT ajouter un niveau entre la région et le pays.
 Les régions suivent la norme M49 des Nations Unies.
 Les pays emploient les codes {abbr-iso-first} 3166-1 et les subdivisions, les codes {abbr-iso} 3166-2.
 Un parcours commun permet d'apprendre la structure une fois et de s'en servir dans chaque spécification.
@@ -61,4 +61,5 @@ Ils ne certifient pas que quiconque respecte une loi.
 |===
 |Version |Date |Changement
 |0.1.0 |2026-11-02 |Première version.
+|0.1.1 |2026-11-03 |DOC-020 : le niveau du bloc régional est facultatif, car les données de comparaison n'ont pas encore de bloc.
 |===
