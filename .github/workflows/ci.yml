@@ -28,8 +28,6 @@ jobs:
       # This repository owns the jurisdiction model.
       doc-ref: local
       doc-rules: true
-      # Until fpsot-spec-writing v0.1.0 is tagged.
-      writing-ref: 1356ce8b61836c971af5b25d1fd2c9245a871e57
   diagrams:
     if: github.ref_type != 'tag'
     uses: fpsot-org/GitHub-Actions/.github/workflows/diagrams.yml@v0
