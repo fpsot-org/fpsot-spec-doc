@@ -5,7 +5,7 @@ Specifications build on standards from other bodies, such as the W3C, {abbr-iso-
 
 [[DOC-025]]
 *DOC-025.* A specification MUST summarise an outside standard in its own words, and MUST NOT copy its text.
-Each citation MUST give the exact version and date, a link, and an archived copy.
+Each citation MUST give the version and the date that the publisher states, a link, and an archived copy.
 Several licences forbid copying, and {abbr-iso} standards are under copyright.
 The archived copy keeps the citation useful when a link breaks.
 
@@ -18,4 +18,5 @@ Then save a fresh archived copy and record its address.
 |===
 |Version |Date |Change
 |0.1.0 |2026-11-02 |First version.
+|0.1.1 |2026-11-03 |DOC-025: a citation gives the version and date the publisher states, since many sources state only one or neither.
 |===

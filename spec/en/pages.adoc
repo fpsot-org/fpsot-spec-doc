@@ -20,7 +20,7 @@ Reviewers can then read and change a diagram like text.
 A text alternative lets people who cannot see the image get the same information.
 
 [[DOC-040]]
-*DOC-040.* An abbreviation MUST render as an {abbr-html-first} `abbr` element that links to the glossary.
+*DOC-040.* An abbreviation MUST render as a {abbr-html-first} `abbr` element that links to the glossary.
 The writing specification sets how to write it.
 Screen readers and the pointer then give the full form on any page.
 
