@@ -1,0 +1,42 @@
+= Fichiers du dépôt
+include::_fpsot-terms.adoc[]
+
+Chaque spécification de la {abbr-fpsot-first} a son propre dépôt, nommé `fpsot-spec-<sujet>`.
+
+[[DOC-001]]
+*DOC-001.* Un dépôt de spécification DOIT contenir chacun de ces fichiers.
+
+[cols="2,3",options="header"]
+|===
+|Fichier |Contenu
+|`README.adoc` |Ce qu'est la spécification, avec un parcours pour la mettre en œuvre et un pour l'adopter.
+|`LICENSE.md`, `COMMUNITY_SPECIFICATION_LICENSE.md`, `NOTICE`, `NOTICES.md` |Les licences et les avis.
+|`CONTRIBUTING.md`, `CONTRIBUTOR_LICENSE_AGREEMENT.md` |Comment contribuer, et les conditions d'une contribution.
+|`CODE_OF_CONDUCT.md`, `GOVERNANCE.md`, `SCOPE.md` |Le fonctionnement du projet et sa portée.
+|`CHANGELOG.md` |Ce qui a changé à chaque version.
+|`publiccode.yml` |Les métadonnées au format publiccode.yml, pour les catalogues de logiciels publics.
+|`AGENTS.md`, `skill/SKILL.md` |Les consignes et la compétence destinées aux agents de programmation et de rédaction.
+|`.github/CODEOWNERS` |Qui révise chaque partie.
+|`spec/en/index.adoc`, `spec/fr/index.adoc` |La première page du texte normatif.
+|`spec/en/book.adoc`, `spec/fr/book.adoc` |La vue livre.
+|===
+
+Un ensemble fixe de fichiers permet de trouver la même chose dans chaque spécification.
+
+[[DOC-002]]
+*DOC-002.* Le fichier `skill/SKILL.md` NE DOIT PAS ajouter de règle qui lui soit propre.
+Chaque règle qu'il énonce DOIT citer un identifiant d'exigence.
+La compétence est un court résumé destiné aux agents.
+Une règle présente seulement dans la compétence ferait suivre des règles différentes aux agents et aux personnes.
+
+[[DOC-003]]
+*DOC-003.* Un dépôt DEVRAIT fournir un fichier `llms.txt` au format de llmstxt.org.
+Ce fichier dirige les agents vers les pages les plus importantes.
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-02 |Première version.
+|===

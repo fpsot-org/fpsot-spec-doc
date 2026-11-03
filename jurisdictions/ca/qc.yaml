@@ -1,0 +1,23 @@
+code: CA-QC
+name: {en: Québec, fr: Québec}
+rows:
+  - id: DOC-001
+    text: {en: "The LiLiQ licence is preferred, and adapted free software is shared back. No repository files are required.", fr: "La licence LiLiQ est privilégiée, et le logiciel libre adapté est partagé. Aucun fichier de dépôt n'est exigé."}
+    status: looser
+    source: {title: "Cadre de référence des logiciels libres", version: "4.1", date: "2022-12", url: "https://cdn-contenu.quebec.ca/cdn-contenu/gouvernement/SCT/vitrine_numeriQc/gouvernement_ouvert/Logiciel_libre/Cadre_reference_logiciels_libres.pdf", archive: "https://web.archive.org/web/20261103005040/https://cdn-contenu.quebec.ca/cdn-contenu/gouvernement/SCT/vitrine_numeriQc/gouvernement_ouvert/Logiciel_libre/Cadre_reference_logiciels_libres.pdf"}
+    last_checked: "2026-11-02"
+  - id: DOC-010
+    text: {en: "Content follows the mental models of citizens, and long content is split into subpages. There is no page-type rule.", fr: "Le contenu suit les schémas mentaux des citoyennes et des citoyens, et les longs contenus sont divisés en sous-pages. Aucune règle ne fixe le type de page."}
+    status: looser
+    source: {title: "Architecture de l'information, Système de design gouvernemental", date: "2026-10-13", url: "https://design.quebec.ca/a-propos/fondements/architecture-information", archive: "https://web.archive.org/web/20261103004759/https://design.quebec.ca/a-propos/fondements/architecture-information"}
+    last_checked: "2026-11-02"
+  - id: DOC-031
+    text: {en: "Pages show a last-updated date, except navigation pages. Public pages describe only what is current, with no history.", fr: "Les pages affichent une date de dernière mise à jour, sauf les pages de navigation. Les pages publiques décrivent seulement ce qui est en vigueur, sans historique."}
+    status: looser
+    source: {title: "Date de mise à jour, Système de design gouvernemental", date: "2026-10-13", url: "https://design.quebec.ca/design/composants/date-mise-a-jour", archive: "https://web.archive.org/web/20261103004425/https://design.quebec.ca/design/composants/date-mise-a-jour"}
+    last_checked: "2026-11-02"
+  - id: DOC-042
+    text: {en: "All web content, including downloadable documents, meets WCAG 2.1 level AA with some WCAG 2.2 criteria. No PDF format is named.", fr: "Tout contenu Web, y compris les documents téléchargeables, respecte le niveau AA des WCAG 2.1 et certains critères des WCAG 2.2. Aucun format PDF n'est nommé."}
+    status: looser
+    source: {title: "Standard sur l'accessibilité des sites Web (SGQRI 008)", version: "3.0", date: "2026-06-08", url: "https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web", archive: "https://web.archive.org/web/20261103004830/https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web"}
+    last_checked: "2026-11-02"

@@ -1,0 +1,64 @@
+= Organisation by jurisdiction
+include::_fpsot-terms.adoc[]
+
+Officials need to see quickly how an {abbr-fpsot-first} rule compares with the rule of their own government.
+Every specification therefore organises its topics the same way.
+
+[[DOC-020]]
+*DOC-020.* Each topic MUST start from the {abbr-fpsot} default, then drill down by jurisdiction.
+The levels are the international baseline, then the region and the regional bloc.
+Then come the country and the subdivision.
+Regions follow the M49 standard of the United Nations.
+Countries use {abbr-iso-first} 3166-1 codes and subdivisions use {abbr-iso} 3166-2 codes.
+One shared path lets a reader learn the layout once and use it in every specification.
+
+[[DOC-021]]
+*DOC-021.* A jurisdiction page MUST show a comparison table with these seven columns, in this order.
+
+. Requirement
+
+. International baseline
+
+. FPSOT default
+
+. This jurisdiction
+
+. Status
+
+. Source and version
+
+. Last checked
+
+The status MUST be `same`, `stricter`, `looser` or `not-covered`.
+It compares the jurisdiction with the {abbr-fpsot} default.
+
+[[DOC-022]]
+*DOC-022.* Comparison data MUST live in the `jurisdictions/` folder.
+It MUST match the model in `model/jurisdiction.yaml` of this specification.
+A tool MUST generate the tables from that data.
+The file `jurisdictions/baseline.yaml` holds the requirement, the international baseline and the default of each row.
+Each country has a file `jurisdictions/<cc>.yaml`, and each subdivision a file `jurisdictions/<cc>/<sub>.yaml`.
+Generated tables cannot drift from the data, and tools can read the data directly.
+
+[[DOC-023]]
+*DOC-023.* The checks MUST flag a comparison row last checked more than 12 months ago.
+A release MUST NOT ship with a flagged row.
+Government rules change, and a stale row would mislead the reader.
+
+[[DOC-024]]
+*DOC-024.* A jurisdiction without data MUST still have a page.
+The page says that nobody has documented it yet, and links to how to contribute.
+A reader who looks for their own government then learns that the project knows about the gap.
+
+[[DOC-026]]
+*DOC-026.* Every comparison page MUST state that it is informational and is not legal advice.
+The tables help officials to compare the rules.
+They do not certify that anyone complies with a law.
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-02 |First version.
+|===

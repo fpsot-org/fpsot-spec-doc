@@ -1,0 +1,45 @@
+= Add a jurisdiction
+:page-type: how-to
+include::_fpsot-terms.adoc[]
+
+This guide shows how to compare a specification with the rules of one more government.
+
+. Find the {abbr-iso-first} 3166 code of the jurisdiction, such as `CA` for Canada or `CA-QC` for Québec.
+
+. Create the file `jurisdictions/<cc>.yaml` for a country, or `jurisdictions/<cc>/<sub>.yaml` for a subdivision, in lower case.
+
+. Set `code` and `name`, then add one row per requirement listed in `jurisdictions/baseline.yaml`.
+
+. For each row, read the official source first and note the version it states.
+
+. Save a fresh archived copy of the source, for example with the Wayback Machine, and note its address.
+
+. Summarise the rule in your own words, in English and in French.
+
+. Set the status: `same`, `stricter`, `looser` or `not-covered`.
+
+. Set `last_checked` to the date you read the source, in quotes.
+
+. Open a pull request.
+The checks validate the file and generate the pages.
+
+== Example
+
+----
+code: CA-QC
+name: {en: Québec, fr: Québec}
+rows:
+  - id: DOC-032
+    text: {en: No rule found., fr: Aucune règle trouvée.}
+    status: not-covered
+    source: {title: Québec.ca, url: "https://www.quebec.ca/", archive: "https://web.archive.org/web/2026/https://www.quebec.ca/"}
+    last_checked: "2026-11-02"
+----
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-02 |First version.
+|===

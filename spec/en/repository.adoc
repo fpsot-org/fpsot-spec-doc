@@ -1,0 +1,42 @@
+= Repository files
+include::_fpsot-terms.adoc[]
+
+Every {abbr-fpsot-first} specification lives in its own repository, named `fpsot-spec-<topic>`.
+
+[[DOC-001]]
+*DOC-001.* A specification repository MUST contain each of these files.
+
+[cols="2,3",options="header"]
+|===
+|File |Content
+|`README.adoc` |What the specification is, with one path to implement it and one to adopt it.
+|`LICENSE.md`, `COMMUNITY_SPECIFICATION_LICENSE.md`, `NOTICE`, `NOTICES.md` |The licences and the notices.
+|`CONTRIBUTING.md`, `CONTRIBUTOR_LICENSE_AGREEMENT.md` |How to contribute, and the terms of a contribution.
+|`CODE_OF_CONDUCT.md`, `GOVERNANCE.md`, `SCOPE.md` |How the project works and what it covers.
+|`CHANGELOG.md` |What changed in each version.
+|`publiccode.yml` |Metadata in the publiccode.yml format, for public software catalogues.
+|`AGENTS.md`, `skill/SKILL.md` |Instructions and the skill for coding and writing agents.
+|`.github/CODEOWNERS` |Who reviews each part.
+|`spec/en/index.adoc`, `spec/fr/index.adoc` |The first page of the normative text.
+|`spec/en/book.adoc`, `spec/fr/book.adoc` |The book view.
+|===
+
+A fixed set of files lets readers and tools find the same thing in every specification.
+
+[[DOC-002]]
+*DOC-002.* The file `skill/SKILL.md` MUST add no rule of its own.
+Each rule it states MUST cite a requirement ID.
+The skill is a short summary for agents.
+A rule found only in the skill would make agents and people follow different rules.
+
+[[DOC-003]]
+*DOC-003.* A repository SHOULD provide an `llms.txt` file in the format of llmstxt.org.
+The file points agents to the pages that matter most.
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-02 |First version.
+|===

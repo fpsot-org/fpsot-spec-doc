@@ -1,0 +1,64 @@
+= Organisation par collectivité publique
+include::_fpsot-terms.adoc[]
+
+Les fonctionnaires doivent voir rapidement comment une règle de la {abbr-fpsot-first} se compare à celle de leur gouvernement.
+Chaque spécification organise donc ses sujets de la même façon.
+
+[[DOC-020]]
+*DOC-020.* Chaque sujet DOIT partir de la valeur par défaut de {abbr-fpsot}, puis descendre par collectivité publique.
+Les niveaux sont la référence internationale, puis la région et le bloc régional.
+Viennent ensuite le pays et la subdivision.
+Les régions suivent la norme M49 des Nations Unies.
+Les pays emploient les codes {abbr-iso-first} 3166-1 et les subdivisions, les codes {abbr-iso} 3166-2.
+Un parcours commun permet d'apprendre la structure une fois et de s'en servir dans chaque spécification.
+
+[[DOC-021]]
+*DOC-021.* Une page de collectivité publique DOIT présenter un tableau comparatif avec ces sept colonnes, dans cet ordre.
+
+. Exigence
+
+. Référence internationale
+
+. Valeur FPSOT
+
+. Cette collectivité
+
+. Statut
+
+. Source et version
+
+. Dernière vérification
+
+Le statut DOIT être `same`, `stricter`, `looser` ou `not-covered`, affiché « identique », « plus strict », « moins strict » ou « non couvert ».
+Il compare la collectivité publique à la valeur par défaut de {abbr-fpsot}.
+
+[[DOC-022]]
+*DOC-022.* Les données de comparaison DOIVENT se trouver dans le dossier `jurisdictions/`.
+Elles DOIVENT respecter le modèle `model/jurisdiction.yaml` de cette spécification.
+Un outil DOIT produire les tableaux à partir de ces données.
+Le fichier `jurisdictions/baseline.yaml` contient l'exigence, la référence internationale et la valeur par défaut de chaque ligne.
+Chaque pays a un fichier `jurisdictions/<cc>.yaml`, et chaque subdivision un fichier `jurisdictions/<cc>/<sub>.yaml`.
+Les tableaux produits ne peuvent pas s'écarter des données, et les outils peuvent lire les données directement.
+
+[[DOC-023]]
+*DOC-023.* Les vérifications DOIVENT signaler toute ligne de comparaison vérifiée il y a plus de 12 mois.
+Une version NE DOIT PAS paraître avec une ligne signalée.
+Les règles des gouvernements changent, et une ligne périmée induirait en erreur.
+
+[[DOC-024]]
+*DOC-024.* Une collectivité publique sans données DOIT quand même avoir une page.
+La page dit que personne ne l'a encore documentée, et renvoie à la façon de contribuer.
+Une personne qui cherche son gouvernement apprend alors que le projet connaît cette lacune.
+
+[[DOC-026]]
+*DOC-026.* Chaque page de comparaison DOIT indiquer qu'elle est informative et qu'elle ne constitue pas un avis juridique.
+Les tableaux aident les fonctionnaires à comparer les règles.
+Ils ne certifient pas que quiconque respecte une loi.
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-02 |Première version.
+|===

@@ -1,0 +1,24 @@
+= Versions et historique
+include::_fpsot-terms.adoc[]
+
+[[DOC-031]]
+*DOC-031.* Chaque page DOIT afficher la version de sa spécification et la date de sa dernière modification.
+La date DOIT venir de l'historique du système de gestion de versions.
+Une personne peut alors savoir si une page imprimée ou enregistrée est à jour.
+
+[[DOC-032]]
+*DOC-032.* Chaque page DOIT se terminer par une section d'historique du document.
+Chaque ligne donne une version, une date et ce qui a changé dans le sens.
+Les corrections de coquilles restent seulement dans l'historique du système de gestion de versions.
+
+[[DOC-033]]
+*DOC-033.* Chaque dépôt DOIT tenir un fichier `CHANGELOG.md` pour l'ensemble de la spécification.
+Ce journal dit aux équipes de mise en œuvre quoi mettre à jour à chaque version.
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-02 |Première version.
+|===

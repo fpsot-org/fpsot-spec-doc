@@ -1,7 +1,19 @@
-= Specification title
+= FPSOT documentation specification
+include::_fpsot-terms.adoc[]
 
-Replace this page with the normative text of the specification.
-Start with the scope, then the conformance classes, then the requirements.
+This specification sets how {abbr-fpsot-first} specifications are documented, organised and published.
+Officials can then compare any specification with the rules of their own government in the same way.
+
+The rules come in six parts.
+
+* xref:repository.adoc[Repository files] list what every specification repository holds.
+* xref:pages.adoc[Pages] set the page types, the folder layout, diagrams and abbreviations.
+* xref:organisation.adoc[Organisation by jurisdiction] sets how each topic compares with the rules of each government.
+* xref:sources.adoc[Outside sources] set how a specification summarises and cites a standard it does not own.
+* xref:versions.adoc[Versions and history] set what each page says about its own version.
+* xref:outputs.adoc[Outputs] set the book view and the published formats.
+
+The prose rules come from the {abbr-fpsot} writing specification.
 
 == Conformance
 
@@ -10,7 +22,13 @@ ____
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in BCP 14 (RFC 2119, RFC 8174) when, and only when, they appear in all capitals, as shown here.
 ____
 
-== Requirements
+A specification repository conforms when it meets every MUST rule.
+The doccheck tool and the jurisgen tool of the shared continuous integration test most of them.
 
-Give each requirement an anchor line with its ID, directly above its paragraph.
-The anchor looks like `+[[XYZ-001]]+`.
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-02 |First version.
+|===

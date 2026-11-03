@@ -1,0 +1,56 @@
+= Jurisdiction data reference
+:page-type: reference
+include::_fpsot-terms.adoc[]
+
+This page lists the fields of the comparison data.
+The LinkML model `model/jurisdiction.yaml` is the normative definition.
+
+== Baseline
+
+The file `jurisdictions/baseline.yaml` holds the topics and the rows.
+
+[cols="1,1,3",options="header"]
+|===
+|Field |Required |Content
+|`topics` |yes |Each topic ID, such as `version-history`, with its name in `en` and `fr`.
+|`rows[].id` |yes |The requirement ID, such as `DOC-032`.
+|`rows[].topic` |yes |The topic ID the row belongs to.
+|`rows[].requirement` |yes |The requirement in short, in `en` and `fr`.
+|`rows[].international` |yes |What the international baseline says, in `en` and `fr`.
+|`rows[].international_source` |yes |The source of the baseline.
+|`rows[].fpsot` |yes |The FPSOT default, in `en` and `fr`.
+|===
+
+== Jurisdiction file
+
+[cols="1,1,3",options="header"]
+|===
+|Field |Required |Content
+|`code` |yes |The upper-case {abbr-iso-first} 3166 code. It matches the file path.
+|`name` |yes |The name in `en` and `fr`.
+|`rows[].id` |yes |A requirement ID from the baseline.
+|`rows[].text` |yes |What the jurisdiction says, in `en` and `fr`.
+|`rows[].status` |yes |`same`, `stricter`, `looser` or `not-covered`.
+|`rows[].source` |yes |The source of the jurisdiction's rule.
+|`rows[].last_checked` |yes |The date someone read the source, quoted: `"2026-11-02"`.
+|===
+
+== Source
+
+[cols="1,1,3",options="header"]
+|===
+|Field |Required |Content
+|`title` |yes |The title of the document.
+|`version` |no |The version or edition the publisher states.
+|`date` |no |The publication or revision date the publisher states.
+|`url` |yes |The official address.
+|`archive` |yes |The address of an archived copy.
+|===
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-02 |First version.
+|===

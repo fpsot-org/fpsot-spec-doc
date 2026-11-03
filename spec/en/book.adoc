@@ -1,0 +1,19 @@
+= FPSOT documentation specification
+:doctype: book
+:toc:
+
+include::index.adoc[leveloffset=+1]
+
+include::repository.adoc[leveloffset=+1]
+
+include::pages.adoc[leveloffset=+1]
+
+include::organisation.adoc[leveloffset=+1]
+
+include::sources.adoc[leveloffset=+1]
+
+include::versions.adoc[leveloffset=+1]
+
+include::outputs.adoc[leveloffset=+1]
+
+include::glossary.adoc[leveloffset=+1]

@@ -1,0 +1,27 @@
+= Formats de sortie
+include::_fpsot-terms.adoc[]
+
+[[DOC-041]]
+*DOC-041.* Chaque spécification DOIT aussi avoir une vue livre, `spec/<langue>/book.adoc`, qui se lit du début à la fin.
+Le livre DOIT commencer par une table des matières et DOIT se terminer par le glossaire.
+Le glossaire donne seulement les termes et les abréviations que la spécification emploie.
+Les fonctionnaires impriment et annotent les spécifications, et un livre se lit bien sur papier.
+
+[[DOC-042]]
+*DOC-042.* Un projet DOIT publier chaque spécification en {abbr-html-first} et en {abbr-pdf-first} balisé.
+Le {abbr-pdf} DOIT être conforme à PDF/UA-1 et à PDF/A-2b.
+Un projet DOIT publier les formats modifiables seulement pour les modèles de demandes de propositions.
+Ces formats comprennent les fichiers OpenDocument ou Word.
+Un {abbr-pdf} balisé fonctionne avec les lecteurs d'écran, et PDF/A garde le fichier lisible pendant des décennies.
+Les acheteurs doivent modifier un modèle, mais personne ne devrait modifier une spécification publiée.
+
+PDF/UA-1 et PDF/A-2b reposent tous deux sur PDF 1.7, donc un même fichier peut respecter les deux.
+PDF/UA-2 repose sur PDF 2.0 et demanderait une partie de PDF/A correspondante.
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-02 |Première version.
+|===

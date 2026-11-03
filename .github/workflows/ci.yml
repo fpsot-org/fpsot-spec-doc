@@ -25,6 +25,11 @@ jobs:
     uses: fpsot-org/GitHub-Actions/.github/workflows/spec-check.yml@v0
     with:
       prefix: ${{ needs.prefix.outputs.value }}
+      # This repository owns the jurisdiction model.
+      doc-ref: local
+      doc-rules: true
+      # Until fpsot-spec-writing v0.1.0 is tagged.
+      writing-ref: 1356ce8bd2cfdc5c06f58cf3cbb491b2d5d7f8a7
   diagrams:
     if: github.ref_type != 'tag'
     uses: fpsot-org/GitHub-Actions/.github/workflows/diagrams.yml@v0
@@ -43,8 +48,12 @@ jobs:
     if: github.ref_type == 'tag'
     needs: prefix
     uses: fpsot-org/GitHub-Actions/.github/workflows/spec-release.yml@v0
+    permissions:
+      contents: write
     with:
       prefix: ${{ needs.prefix.outputs.value }}
+      doc-ref: local
+      doc-rules: true
   model-test:
     if: github.ref_type != 'tag'
     runs-on: ubuntu-latest

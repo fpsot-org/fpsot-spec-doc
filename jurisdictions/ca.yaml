@@ -1,0 +1,23 @@
+code: CA
+name: {en: Canada, fr: Canada}
+rows:
+  - id: DOC-001
+    text: {en: "A licence file is required before code is published. README, CONTRIBUTING, SECURITY and CODE_OF_CONDUCT files are recommended.", fr: "Un fichier de licence est exigé avant la publication du code. Les fichiers README, CONTRIBUTING, SECURITY et CODE_OF_CONDUCT sont recommandés."}
+    status: looser
+    source: {title: "Publishing Open Source Code, Open Source Software Requirements and Guidance (draft)", date: "2026-08-11", url: "https://github.com/canada-ca/open-source-logiciel-libre/blob/main/en/guides/publishing-open-source-code.md", archive: "https://github.com/canada-ca/open-source-logiciel-libre/blob/6e5a41a24268e99103bd470738fe7b0ff38348d8/en/guides/publishing-open-source-code.md"}
+    last_checked: "2026-11-02"
+  - id: DOC-010
+    text: {en: "Pages are classified by content type, and navigation drills down from themes to topics. There is no one-type-per-page rule.", fr: "Les pages sont classées par type de contenu, et la navigation descend des thèmes aux sujets. Aucune règle n'impose un seul type par page."}
+    status: looser
+    source: {title: "Organizing content on Canada.ca", date: "2024-08-26", url: "https://design.canada.ca/specifications/information-findability/organizing-content.html", archive: "https://web.archive.org/web/20261103003109/https://design.canada.ca/specifications/information-findability/organizing-content.html"}
+    last_checked: "2026-11-02"
+  - id: DOC-031
+    text: {en: "Each page shows its modification date. Applications may show a version instead. No history is required.", fr: "Chaque page affiche sa date de modification. Une application peut plutôt afficher une version. Aucun historique n'est exigé."}
+    status: looser
+    source: {title: "Date modified, Canada.ca design", date: "2025-10-24", url: "https://design.canada.ca/common-design-patterns/date-modified.html", archive: "https://web.archive.org/web/20261103002220/https://design.canada.ca/common-design-patterns/date-modified.html"}
+    last_checked: "2026-11-02"
+  - id: DOC-042
+    text: {en: "By 2028-12-05, digital documents must meet CAN/ASC-EN 301 549:2024. The rule names no PDF format.", fr: "D'ici le 2028-12-05, les documents numériques doivent respecter la norme CAN/ASC-EN 301 549:2024. La règle ne nomme aucun format PDF."}
+    status: looser
+    source: {title: "Direction on Information Communication Technologies Accessibility; towards regulatory implementation", date: "2026-03-12", url: "https://www.canada.ca/en/government/system/digital-government/policies-standards/policy-service-digital-announcements/direction-information-communication-technologies-accessibility-towards-regulatory-implementation.html", archive: "https://web.archive.org/web/20261103002606/https://www.canada.ca/en/government/system/digital-government/policies-standards/policy-service-digital-announcements/direction-information-communication-technologies-accessibility-towards-regulatory-implementation.html"}
+    last_checked: "2026-11-02"

@@ -1,0 +1,26 @@
+= Outputs
+include::_fpsot-terms.adoc[]
+
+[[DOC-041]]
+*DOC-041.* Each specification MUST also have a book view, `spec/<lang>/book.adoc`, that reads from start to end.
+The book MUST start with a table of contents and MUST end with the glossary.
+The glossary lists only the terms and abbreviations that the specification uses.
+Officials print and annotate specifications, and a book is easy to read on paper.
+
+[[DOC-042]]
+*DOC-042.* A project MUST publish each specification as {abbr-html-first} and as tagged {abbr-pdf-first}.
+The {abbr-pdf} MUST conform to PDF/UA-1 and to PDF/A-2b.
+A project MUST publish editable formats, such as OpenDocument or Word files, only for templates of requests for proposals.
+A tagged {abbr-pdf} works with screen readers, and PDF/A keeps the file readable for decades.
+Buyers must edit a template, but nobody should edit a published specification.
+
+PDF/UA-1 and PDF/A-2b both build on PDF 1.7, so one file can meet both.
+PDF/UA-2 builds on PDF 2.0 and would need a matching PDF/A part.
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-02 |First version.
+|===
