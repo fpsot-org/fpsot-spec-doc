@@ -4,7 +4,7 @@ rows:
   - id: DOC-001
     text: {en: "A licence file is required before code is published. README, CONTRIBUTING, SECURITY and CODE_OF_CONDUCT files are recommended.", fr: "Un fichier de licence est exigé avant la publication du code. Les fichiers README, CONTRIBUTING, SECURITY et CODE_OF_CONDUCT sont recommandés."}
     status: looser
-    source: {title: "Publishing Open Source Code, Open Source Software Requirements and Guidance (draft)", date: "2026-08-11", url: "https://github.com/canada-ca/open-source-logiciel-libre/blob/main/en/guides/publishing-open-source-code.md", archive: "https://github.com/canada-ca/open-source-logiciel-libre/blob/6e5a41a24268e99103bd470738fe7b0ff38348d8/en/guides/publishing-open-source-code.md"}
+    source: {title: "Publishing Open Source Code, Open Source Software Requirements and Guidance (draft)", date: "2026-08-11", url: "https://github.com/canada-ca/open-source-logiciel-libre/blob/master/en/guides/publishing-open-source-code.md", archive: "https://github.com/canada-ca/open-source-logiciel-libre/blob/6e5a41a24268e99103bd470738fe7b0ff38348d8/en/guides/publishing-open-source-code.md"}
     last_checked: "2026-11-02"
   - id: DOC-010
     text: {en: "Pages are classified by content type, and navigation drills down from themes to topics. There is no one-type-per-page rule.", fr: "Les pages sont classées par type de contenu, et la navigation descend des thèmes aux sujets. Aucune règle n'impose un seul type par page."}
