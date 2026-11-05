@@ -2,7 +2,7 @@ code: CA
 name: {en: Canada, fr: Canada}
 rows:
   - id: DOC-001
-    text: {en: "A licence file is required before code is published. README, CONTRIBUTING, SECURITY and CODE_OF_CONDUCT files are recommended.", fr: "Un fichier de licence est exigé avant la publication du code. Les fichiers README, CONTRIBUTING, SECURITY et CODE_OF_CONDUCT sont recommandés."}
+    text: {en: "A license file is required before code is published. README, CONTRIBUTING, SECURITY and CODE_OF_CONDUCT files are recommended.", fr: "Un fichier de licence est exigé avant la publication du code. Les fichiers README, CONTRIBUTING, SECURITY et CODE_OF_CONDUCT sont recommandés."}
     status: looser
     source: {title: "Publishing Open Source Code, Open Source Software Requirements and Guidance (draft)", date: "2026-08-11", url: "https://github.com/canada-ca/open-source-logiciel-libre/blob/master/en/guides/publishing-open-source-code.md", archive: "https://github.com/canada-ca/open-source-logiciel-libre/blob/6e5a41a24268e99103bd470738fe7b0ff38348d8/en/guides/publishing-open-source-code.md"}
     last_checked: "2026-11-02"

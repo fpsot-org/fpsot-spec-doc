@@ -17,7 +17,7 @@ Read the guides in `docs/modules/en/pages/` or `docs/modules/fr/pages/`.
 `model/jurisdiction.yaml` is the LinkML model of the comparison data that every FPSOT specification keeps in `jurisdictions/`.
 `model/examples/` holds valid and invalid examples, and `model/test-model.sh` checks them.
 
-== Licence
+== License
 
 The specification and the model are under the Community Specification License 1.0.
 Source code is under the Apache License 2.0.

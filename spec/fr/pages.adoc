@@ -23,7 +23,8 @@ Le texte de remplacement donne la même information aux personnes qui ne voient 
 *DOC-040.* Une abréviation DOIT s'afficher comme un élément `abbr` en {abbr-html-first}, lié au glossaire.
 La spécification de rédaction fixe la façon de l'écrire.
 Les lecteurs d'écran et le pointeur donnent alors la forme complète sur n'importe quelle page.
-Dans le texte d'un lien de citation, une abréviation s'écrit plutôt en texte simple, comme le dit DOC-043.
+Dans le texte d'un lien de citation et dans une entrée des références, une abréviation s'écrit en texte simple.
+DOC-043 et DOC-044 le fixent.
 
 [[DOC-046]]
 *DOC-046.* Chaque bloc de code DOIT nommer son langage, par exemple `[source,json]`.

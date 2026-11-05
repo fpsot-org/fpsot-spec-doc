@@ -23,7 +23,8 @@ A text alternative lets people who cannot see the image get the same information
 *DOC-040.* An abbreviation MUST render as a {abbr-html-first} `abbr` element that links to the glossary.
 The writing specification sets how to write it.
 Screen readers and the pointer then give the full form on any page.
-Inside the text of a citation link, an abbreviation is plain text instead, as DOC-043 says.
+Inside the text of a citation link and in a References entry, an abbreviation is plain text instead.
+DOC-043 and DOC-044 set these.
 
 [[DOC-046]]
 *DOC-046.* Each code block MUST name its language, such as `[source,json]`.

@@ -8,7 +8,8 @@ A reader can then tell whether a printed or saved page is current.
 
 [[DOC-032]]
 *DOC-032.* Each page MUST end with a document history section.
-Each row gives a version, a date and what changed in meaning.
+Each row gives a version, a date and the change a reader should know about.
+Such a change can touch a rule, a source or a writing convention.
 Typo fixes stay in the version control history only.
 
 [[DOC-033]]

@@ -10,17 +10,20 @@ DOC-044 sets what each citation gives.
 
 [[DOC-043]]
 *DOC-043.* A page that names an outside standard MUST link that name to the standard itself.
+The first mention in each section carries the link.
 For example, link:https://www.rfc-editor.org/info/rfc8174[RFC 8174] links to its page at the RFC Editor.
 The link text is plain, with no abbreviation markup, because a link cannot hold another link.
 Readers then reach the source in one step.
 
 [[DOC-044]]
-*DOC-044.* Each page that cites outside sources MUST end with a References section, right before its document history.
+*DOC-044.* Each page that cites outside sources MUST have a References section right before its document history.
 The section lists each source once, under Normative or Informative.
 A source is normative when the page's rules depend on it, and informative when it gives background.
 Each entry MUST give the title, the version and date the publisher states, a link, and an archived copy.
 Readers see every source of a page at a glance.
 The archived copy keeps the citation useful when a link breaks.
+
+Each entry fits on one line. A tool can then match it to the links in the page.
 
 To check a source, read the live page first and note the version it states.
 Then save a fresh archived copy and record its address.

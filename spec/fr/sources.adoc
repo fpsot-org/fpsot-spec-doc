@@ -10,17 +10,20 @@ DOC-044 fixe ce que donne chaque citation.
 
 [[DOC-043]]
 *DOC-043.* Une page qui nomme une norme externe DOIT lier ce nom à la norme elle-même.
+La première mention dans chaque section porte le lien.
 Par exemple, link:https://www.rfc-editor.org/info/rfc8174[RFC 8174] mène à sa page chez le RFC Editor.
 Le texte du lien est simple, sans balisage d'abréviation, car un lien ne peut pas en contenir un autre.
 Le lectorat atteint alors la source en une étape.
 
 [[DOC-044]]
-*DOC-044.* Chaque page qui cite des sources externes DOIT se terminer par une section Références, juste avant son historique.
-Cette section donne chaque source une seule fois, sous « normatives » ou « informatives ».
+*DOC-044.* Chaque page qui cite des sources externes DOIT comporter une section Références placée juste avant son historique.
+Cette section donne chaque source une seule fois, sous « Références normatives » ou « Références informatives ».
 Une source est normative quand les règles de la page en dépendent, et informative quand elle sert de contexte.
 Chaque entrée DOIT donner le titre, la version et la date que l'éditeur indique, un lien et une copie archivée.
 Le lectorat voit ainsi toutes les sources d'une page d'un coup d'œil.
 La copie archivée garde la citation utile quand un lien ne fonctionne plus.
+
+Chaque entrée tient sur une ligne. Un outil peut alors l'associer aux liens de la page.
 
 Pour vérifier une source, lisez d'abord la page en ligne et notez la version qu'elle indique.
 Enregistrez ensuite une nouvelle copie archivée et notez son adresse.

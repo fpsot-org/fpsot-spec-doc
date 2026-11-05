@@ -10,7 +10,7 @@ rows:
     requirement: {en: Each repository holds the required files., fr: Chaque dépôt contient les fichiers obligatoires.}
     international: {en: "Contribution guidelines and documented governance are required. A code of conduct is optional.", fr: "Un guide de contribution et une gouvernance documentée sont exigés. Le code de conduite est facultatif."}
     international_source: {title: "Standard for Public Code, Welcome contributors", version: "0.8.0", date: "2024-01-09", url: "https://standard.publiccode.net/criteria/welcome-contributors.html", archive: "https://web.archive.org/web/20260526003207/https://standard.publiccode.net/criteria/welcome-contributors.html"}
-    fpsot: {en: "README, licence, changelog, contributing guide, governance, code of conduct, publiccode.yml and the other listed files.", fr: "README, licence, journal des modifications, guide de contribution, gouvernance, code de conduite, publiccode.yml et les autres fichiers de la liste."}
+    fpsot: {en: "README, license, changelog, contributing guide, governance, code of conduct, publiccode.yml and the other listed files.", fr: "README, licence, journal des modifications, guide de contribution, gouvernance, code de conduite, publiccode.yml et les autres fichiers de la liste."}
   - id: DOC-010
     topic: page-structure
     requirement: {en: Each docs page has one page type., fr: Chaque page de documentation a un seul type.}

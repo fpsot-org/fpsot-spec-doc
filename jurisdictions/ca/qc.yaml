@@ -2,7 +2,7 @@ code: CA-QC
 name: {en: Québec, fr: Québec}
 rows:
   - id: DOC-001
-    text: {en: "The LiLiQ licence is preferred, and adapted free software is shared back. No repository files are required.", fr: "La licence LiLiQ est privilégiée, et le logiciel libre adapté est partagé. Aucun fichier de dépôt n'est exigé."}
+    text: {en: "The LiLiQ license is preferred, and adapted free software is shared back. No repository files are required.", fr: "La licence LiLiQ est privilégiée, et le logiciel libre adapté est partagé. Aucun fichier de dépôt n'est exigé."}
     status: looser
     source: {title: "Cadre de référence des logiciels libres", version: "4.1", date: "2022-12", url: "https://cdn-contenu.quebec.ca/cdn-contenu/gouvernement/SCT/vitrine_numeriQc/gouvernement_ouvert/Logiciel_libre/Cadre_reference_logiciels_libres.pdf", archive: "https://web.archive.org/web/20261103005040/https://cdn-contenu.quebec.ca/cdn-contenu/gouvernement/SCT/vitrine_numeriQc/gouvernement_ouvert/Logiciel_libre/Cadre_reference_logiciels_libres.pdf"}
     last_checked: "2026-11-02"

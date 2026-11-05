@@ -18,7 +18,7 @@ It adds no rules of its own: every rule here cites a requirement ID from `spec/`
 - Give each guide page one `:page-type:`: tutorial, how-to, reference or explanation (DOC-010).
 - Normative text in `spec/en/` and `spec/fr/`, guides in `docs/modules/<lang>/pages/`, same file names in both languages (DOC-011).
 - Draw diagrams as code and give every image a text alternative (DOC-030).
-- Write abbreviations so they render as `<abbr>` linked to the glossary; inside a citation link's text, write them plainly (DOC-040).
+- Write abbreviations so they render as `<abbr>` linked to the glossary; inside a citation link's text and in References entries, write them plainly (DOC-040).
 - Name the language of each code block, such as `[source,json]`, or `text` for plain output (DOC-046).
 
 ## Jurisdictions
@@ -32,12 +32,12 @@ It adds no rules of its own: every rule here cites a requirement ID from `spec/`
 ## Sources
 
 - Summarize outside standards in your own words; never copy them (DOC-025).
-- Link each outside standard where a page names it, for example RFC 8174 to its RFC Editor page (DOC-043).
-- End each page that cites outside sources with a References section, right before the document history: Normative and Informative entries with title, version, date, link and archived copy (DOC-044).
+- Link the first mention of each outside standard in each section, for example RFC 8174 to its RFC Editor page (DOC-043).
+- Give each page that cites outside sources a References section right before the document history, one line per entry: Normative and Informative entries with title, version, date, link and archived copy (DOC-044).
 
 ## Versions and outputs
 
 - Each page shows its version and last-changed date from Git (DOC-031) and ends with a document history (DOC-032). Keep `CHANGELOG.md` (DOC-033).
 - Provide a book with a table of contents first and the glossary last (DOC-041).
 - Publish HTML and tagged PDF (PDF/UA-1, PDF/A-2b); editable formats only for RFP templates (DOC-042).
-- In HTML, mark links that leave the site with an external-link marker that screen readers announce, and never force a new tab (DOC-045).
+- In HTML, mark links that leave the site and the project's repositories with an external-link marker that screen readers announce, and never force a new tab (DOC-045).

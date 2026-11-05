@@ -15,11 +15,11 @@ Ces formats comprennent les fichiers OpenDocument ou Word.
 Un {abbr-pdf} balisé fonctionne avec les lecteurs d'écran, et PDF/A garde le fichier lisible pendant des décennies.
 Les acheteurs doivent modifier un modèle, mais personne ne devrait modifier une spécification publiée.
 
-PDF/UA-1 et PDF/A-2b reposent tous deux sur PDF 1.7, donc un même fichier peut respecter les deux.
-PDF/UA-2 repose sur PDF 2.0 et demanderait une partie de PDF/A correspondante.
+PDF/UA-1 et PDF/A-2b reposent tous deux sur link:https://www.iso.org/standard/51502.html[PDF 1.7], donc un même fichier peut respecter les deux.
+PDF/UA-2 repose sur link:https://www.iso.org/standard/75839.html[PDF 2.0] et demanderait une partie de PDF/A correspondante.
 
 [[DOC-045]]
-*DOC-045.* Dans la sortie {abbr-html}, un lien qui quitte le site du projet DOIT afficher une marque de lien externe.
+*DOC-045.* En {abbr-html}, un lien qui quitte le site et les dépôts du projet DOIT afficher une marque externe.
 Cette marque DOIT porter un texte que les lecteurs d'écran annoncent, comme « lien externe ».
 Le lien NE DOIT PAS ouvrir un nouvel onglet ni une nouvelle fenêtre.
 Le lectorat sait alors qu'il quitte le site avant de suivre le lien.
@@ -31,6 +31,11 @@ Un onglet qui s'ouvre sans avertissement déroute les personnes qui utilisent un
 
 * link:https://www.iso.org/standard/64599.html[ISO 14289-1, PDF/UA-1], ISO, ISO 14289-1:2014, 2014-12. link:https://web.archive.org/web/20261014161702/https://www.iso.org/standard/64599.html[Copie archivée]
 * link:https://www.iso.org/standard/50655.html[ISO 19005-2, PDF/A-2], ISO, ISO 19005-2:2011, 2011-06. link:https://web.archive.org/web/20261004065908/https://www.iso.org/standard/50655.html[Copie archivée]
+* link:https://www.iso.org/standard/51502.html[ISO 32000-1, PDF 1.7], ISO, ISO 32000-1:2008, 2008-07. link:https://web.archive.org/web/20261026152643/https://www.iso.org/standard/51502.html[Copie archivée]
+
+=== Références informatives
+
+* link:https://www.iso.org/standard/75839.html[ISO 32000-2, PDF 2.0], ISO, ISO 32000-2:2020, 2020-12. link:https://web.archive.org/web/20261024030325/https://www.iso.org/standard/75839.html[Copie archivée]
 
 == Historique du document
 
