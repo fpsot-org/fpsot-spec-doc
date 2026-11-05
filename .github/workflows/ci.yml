@@ -48,6 +48,7 @@ jobs:
     uses: fpsot-org/GitHub-Actions/.github/workflows/spec-release.yml@v0
     permissions:
       contents: write
+    secrets: inherit
     with:
       prefix: ${{ needs.prefix.outputs.value }}
       doc-ref: local
