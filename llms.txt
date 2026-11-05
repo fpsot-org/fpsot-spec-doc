@@ -1,16 +1,16 @@
 # FPSOT documentation specification
 
-> How FPSOT specifications are documented, organised and published: repository files, page types, comparison by jurisdiction, outside sources, versions and outputs.
+> How FPSOT specifications are documented, organized and published: repository files, page types, comparison by jurisdiction, outside sources, versions and outputs.
 
 ## Specification
 
 - [Overview](spec/en/index.adoc): scope, parts and conformance.
 - [Repository files](spec/en/repository.adoc): DOC-001 to DOC-003.
-- [Pages](spec/en/pages.adoc): DOC-010, DOC-011, DOC-030, DOC-040.
-- [Organisation by jurisdiction](spec/en/organisation.adoc): DOC-020 to DOC-026.
-- [Outside sources](spec/en/sources.adoc): DOC-025.
+- [Pages](spec/en/pages.adoc): DOC-010, DOC-011, DOC-030, DOC-040, DOC-046.
+- [Organization by jurisdiction](spec/en/organisation.adoc): DOC-020 to DOC-026.
+- [Outside sources](spec/en/sources.adoc): DOC-025, DOC-043, DOC-044.
 - [Versions and history](spec/en/versions.adoc): DOC-031 to DOC-033.
-- [Outputs](spec/en/outputs.adoc): DOC-041, DOC-042.
+- [Outputs](spec/en/outputs.adoc): DOC-041, DOC-042, DOC-045.
 
 ## Model
 

@@ -39,4 +39,5 @@ Ce fichier dirige les agents vers les pages les plus importantes.
 |===
 |Version |Date |Changement
 |0.1.0 |2026-11-02 |Première version.
+|0.2.0 |2026-11-04 |Orthographe américaine pour l'anglais.
 |===

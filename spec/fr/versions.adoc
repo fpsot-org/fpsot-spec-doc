@@ -8,7 +8,8 @@ Une personne peut alors savoir si une page imprimée ou enregistrée est à jour
 
 [[DOC-032]]
 *DOC-032.* Chaque page DOIT se terminer par une section d'historique du document.
-Chaque ligne donne une version, une date et ce qui a changé dans le sens.
+Chaque ligne donne une version, une date et le changement que le lectorat doit connaître.
+Ce changement peut toucher une règle, une source ou une convention d'écriture.
 Les corrections de coquilles restent seulement dans l'historique du système de gestion de versions.
 
 [[DOC-033]]
