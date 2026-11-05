@@ -1,8 +1,8 @@
-= Organisation by jurisdiction
+= Organization by jurisdiction
 include::_fpsot-terms.adoc[]
 
 Officials need to see quickly how a {abbr-fpsot-first} rule compares with the rule of their own government.
-Every specification therefore organises its topics the same way.
+Every specification therefore organizes its topics the same way.
 
 [[DOC-020]]
 *DOC-020.* Each topic MUST start from the {abbr-fpsot} default, then drill down by jurisdiction.
@@ -62,4 +62,5 @@ They do not certify that anyone complies with a law.
 |Version |Date |Change
 |0.1.0 |2026-11-02 |First version.
 |0.1.1 |2026-11-03 |DOC-020: the regional bloc level is optional, since the comparison data has no bloc yet.
+|0.2.0 |2026-11-04 |Moved to US spelling.
 |===

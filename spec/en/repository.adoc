@@ -10,7 +10,7 @@ Every {abbr-fpsot-first} specification lives in its own repository, named `fpsot
 |===
 |File |Content
 |`README.adoc` |What the specification is, with one path to implement it and one to adopt it.
-|`LICENSE.md`, `COMMUNITY_SPECIFICATION_LICENSE.md`, `NOTICE`, `NOTICES.md` |The licences and the notices.
+|`LICENSE.md`, `COMMUNITY_SPECIFICATION_LICENSE.md`, `NOTICE`, `NOTICES.md` |The licenses and the notices.
 |`CONTRIBUTING.md`, `CONTRIBUTOR_LICENSE_AGREEMENT.md` |How to contribute, and the terms of a contribution.
 |`CODE_OF_CONDUCT.md`, `GOVERNANCE.md`, `SCOPE.md` |How the project works and what it covers.
 |`CHANGELOG.md` |What changed in each version.
@@ -39,4 +39,5 @@ The file points agents to the pages that matter most.
 |===
 |Version |Date |Change
 |0.1.0 |2026-11-02 |First version.
+|0.2.0 |2026-11-04 |Moved to US spelling.
 |===

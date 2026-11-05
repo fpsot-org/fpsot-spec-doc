@@ -14,7 +14,7 @@ This guide shows how to compare a specification with the rules of one more gover
 
 . Save a fresh archived copy of the source, for example with the Wayback Machine, and note its address.
 
-. Summarise the rule in your own words, in English and in French.
+. Summarize the rule in your own words, in English and in French.
 
 . Set the status: `same`, `stricter`, `looser` or `not-covered`.
 
@@ -25,6 +25,7 @@ The checks validate the file and generate the pages.
 
 == Example
 
+[source,yaml]
 ----
 code: CA-QC
 name: {en: Québec, fr: Québec}
@@ -42,4 +43,5 @@ rows:
 |===
 |Version |Date |Change
 |0.1.0 |2026-11-02 |First version.
+|0.2.0 |2026-11-04 |Named the code block's language and moved to US spelling.
 |===

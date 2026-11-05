@@ -9,7 +9,7 @@ developmentStatus: concept
 softwareType: "standalone/other"
 description:
   en:
-    shortDescription: How FPSOT specifications are documented, organised and published.
+    shortDescription: How FPSOT specifications are documented, organized and published.
     longDescription: >
       The FPSOT documentation specification sets the files every FPSOT
       specification repository holds, the page types, the comparison of

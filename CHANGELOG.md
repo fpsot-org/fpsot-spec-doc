@@ -6,6 +6,21 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-11-04
+
+### Added
+
+- DOC-043: a page that names an outside standard links that name to the standard itself.
+- DOC-044: each page that cites outside sources ends with a References section, right before its document history. Entries are normative or informative, with title, version, date, link and archived copy. The citation details of DOC-025 move here.
+- DOC-045: in HTML, a link that leaves the site shows an external-link marker that screen readers announce, and opens in the same tab.
+- DOC-046: each code block names its language.
+
+### Changed
+
+- DOC-025 keeps the rule against copying an outside standard; DOC-044 now sets what a citation gives.
+- DOC-040: an abbreviation inside a citation link's text is plain text.
+- English text uses US spelling, as the writing specification now requires.
+
 ## [0.1.1] - 2026-11-03
 
 ### Fixed

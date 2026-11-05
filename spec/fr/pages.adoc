@@ -4,7 +4,7 @@ include::_fpsot-terms.adoc[]
 [[DOC-010]]
 *DOC-010.* Chaque page de guide DOIT déclarer un type de page dans un attribut `:page-type:`.
 Le type DOIT être `tutorial`, `how-to`, `reference` ou `explanation`.
-Ce sont les quatre types du modèle Diátaxis : tutoriel, guide pratique, référence et explication.
+Ce sont les quatre types du modèle link:https://diataxis.fr/[Diátaxis] : tutoriel, guide pratique, référence et explication.
 Une page qui a un seul but est plus facile à rédiger et à trouver.
 
 [[DOC-011]]
@@ -23,6 +23,19 @@ Le texte de remplacement donne la même information aux personnes qui ne voient 
 *DOC-040.* Une abréviation DOIT s'afficher comme un élément `abbr` en {abbr-html-first}, lié au glossaire.
 La spécification de rédaction fixe la façon de l'écrire.
 Les lecteurs d'écran et le pointeur donnent alors la forme complète sur n'importe quelle page.
+Dans le texte d'un lien de citation, une abréviation s'écrit plutôt en texte simple, comme le dit DOC-043.
+
+[[DOC-046]]
+*DOC-046.* Chaque bloc de code DOIT nommer son langage, par exemple `[source,json]`.
+Un bloc de sortie brute ou de texte DOIT utiliser `text`.
+Le site colore le code selon son langage, ce qui aide à en distinguer les parties.
+Les outils qui lisent la source savent aussi comment analyser chaque bloc.
+
+== Références
+
+=== Références normatives
+
+* link:https://diataxis.fr/[Diátaxis, a systematic approach to technical documentation], Daniele Procida, non daté. link:https://web.archive.org/web/20261103010307/https://diataxis.fr/[Copie archivée]
 
 == Historique du document
 
@@ -30,4 +43,5 @@ Les lecteurs d'écran et le pointeur donnent alors la forme complète sur n'impo
 |===
 |Version |Date |Changement
 |0.1.0 |2026-11-02 |Première version.
+|0.2.0 |2026-11-04 |DOC-046 : chaque bloc de code nomme son langage. DOC-040 : une abréviation dans un lien de citation s'écrit en texte simple.
 |===

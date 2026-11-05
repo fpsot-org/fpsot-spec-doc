@@ -62,4 +62,5 @@ Ils ne certifient pas que quiconque respecte une loi.
 |Version |Date |Changement
 |0.1.0 |2026-11-02 |Première version.
 |0.1.1 |2026-11-03 |DOC-020 : le niveau du bloc régional est facultatif, car les données de comparaison n'ont pas encore de bloc.
+|0.2.0 |2026-11-04 |Orthographe américaine pour l'anglais.
 |===

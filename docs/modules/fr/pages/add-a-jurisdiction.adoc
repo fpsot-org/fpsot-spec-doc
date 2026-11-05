@@ -25,6 +25,7 @@ Les vérifications valident alors le fichier et produisent les pages.
 
 == Exemple
 
+[source,yaml]
 ----
 code: CA-QC
 name: {en: Québec, fr: Québec}
@@ -42,4 +43,5 @@ rows:
 |===
 |Version |Date |Changement
 |0.1.0 |2026-11-02 |Première version.
+|0.2.0 |2026-11-04 |Langage du bloc de code nommé et orthographe américaine pour l'anglais.
 |===

@@ -4,7 +4,7 @@ include::_fpsot-terms.adoc[]
 [[DOC-010]]
 *DOC-010.* Each guide page MUST declare one page type in a `:page-type:` attribute.
 The type MUST be `tutorial`, `how-to`, `reference` or `explanation`.
-These are the four types of the Diátaxis model.
+These are the four types of the link:https://diataxis.fr/[Diátaxis] model.
 A page with one purpose is easier to write and to find.
 
 [[DOC-011]]
@@ -23,6 +23,19 @@ A text alternative lets people who cannot see the image get the same information
 *DOC-040.* An abbreviation MUST render as a {abbr-html-first} `abbr` element that links to the glossary.
 The writing specification sets how to write it.
 Screen readers and the pointer then give the full form on any page.
+Inside the text of a citation link, an abbreviation is plain text instead, as DOC-043 says.
+
+[[DOC-046]]
+*DOC-046.* Each code block MUST name its language, such as `[source,json]`.
+A block of plain output or prose MUST use `text`.
+The site colors code by language, so readers tell its parts apart faster.
+Tools that read the source also know how to parse each block.
+
+== References
+
+=== Normative
+
+* link:https://diataxis.fr/[Diátaxis, a systematic approach to technical documentation], Daniele Procida, not dated. link:https://web.archive.org/web/20261103010307/https://diataxis.fr/[Archived copy]
 
 == Document history
 
@@ -30,4 +43,5 @@ Screen readers and the pointer then give the full form on any page.
 |===
 |Version |Date |Change
 |0.1.0 |2026-11-02 |First version.
+|0.2.0 |2026-11-04 |DOC-046: each code block names its language. DOC-040: an abbreviation inside a citation link is plain text.
 |===
