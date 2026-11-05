@@ -21,6 +21,10 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 - DOC-040: an abbreviation inside a citation link's text is plain text.
 - English text uses US spelling, as the writing specification now requires.
 
+### Fixed
+
+- DOC-042, Canada row: a fresh archived copy of the federal direction on ICT accessibility; the earlier copy no longer opens.
+
 ## [0.1.1] - 2026-11-03
 
 ### Fixed
