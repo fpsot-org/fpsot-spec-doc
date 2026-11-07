@@ -1,7 +1,7 @@
 = FPSOT documentation specification
 
 This specification sets how FPSOT specifications are documented, organized and published.
-It is a draft: the normative text comes in version 0.1.0.
+Its rules have been normative since version 0.1.0, and `CHANGELOG.md` lists the changes in each version.
 
 == Implement this spec
 
