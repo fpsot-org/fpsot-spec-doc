@@ -6,6 +6,12 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.2.1] - 2026-11-07
+
+### Fixed
+
+- README: it no longer calls the specification a draft; its rules have been normative since version 0.1.0.
+
 ## [0.2.0] - 2026-11-04
 
 ### Added
