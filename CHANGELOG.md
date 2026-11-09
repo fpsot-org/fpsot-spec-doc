@@ -6,6 +6,12 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-11-08
+
+### Added
+
+- DOC-047: each published output states its copyright holder and license; a PDF has a notice page after its title page, and each HTML spec page shows it apart from the website's own license.
+
 ## [0.2.1] - 2026-11-07
 
 ### Fixed

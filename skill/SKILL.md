@@ -40,4 +40,5 @@ It adds no rules of its own: every rule here cites a requirement ID from `spec/`
 - Each page shows its version and last-changed date from Git (DOC-031) and ends with a document history (DOC-032). Keep `CHANGELOG.md` (DOC-033).
 - Provide a book with a table of contents first and the glossary last (DOC-041).
 - Publish HTML and tagged PDF (PDF/UA-1, PDF/A-2b); editable formats only for RFP templates (DOC-042).
+- Every output must state its copyright holder and license: a notice page after the PDF title page, with version, date and source repository; every HTML spec page too, apart from the site's own license; name the code-sample license if different (DOC-047).
 - In HTML, mark links that leave the site and the project's repositories with an external-link marker that screen readers announce, and never force a new tab (DOC-045).
