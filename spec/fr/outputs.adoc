@@ -18,6 +18,16 @@ Les acheteurs doivent modifier un modèle, mais personne ne devrait modifier une
 PDF/UA-1 et PDF/A-2b reposent tous deux sur link:https://www.iso.org/standard/51502.html[PDF 1.7], donc un même fichier peut respecter les deux.
 PDF/UA-2 repose sur link:https://www.iso.org/standard/75839.html[PDF 2.0] et demanderait une partie de PDF/A correspondante.
 
+[[DOC-047]]
+*DOC-047.* Chaque format publié DOIT indiquer qui détient le droit d'auteur et sous quelle licence il est publié.
+Un {abbr-pdf} DOIT l'indiquer dans une page d'avis après sa page de titre.
+Cette page DOIT aussi donner la version, la date de publication et le {term-repository} source.
+Chaque page {abbr-html} d'une spécification DOIT aussi l'indiquer, à part de la licence du site Web lui-même.
+Quand les exemples de code ont une autre licence, l'avis DOIT aussi nommer cette licence.
+
+Une personne peut recevoir un fichier seul, comme un {abbr-pdf} imprimé ou transféré.
+L'avis lui dit alors si elle peut le réutiliser et comment.
+
 [[DOC-045]]
 *DOC-045.* En {abbr-html}, un lien qui quitte le site et les dépôts du projet DOIT afficher une marque externe.
 Cette marque DOIT porter un texte que les lecteurs d'écran annoncent, comme « lien externe ».
@@ -44,4 +54,5 @@ Un onglet qui s'ouvre sans avertissement déroute les personnes qui utilisent un
 |Version |Date |Changement
 |0.1.0 |2026-11-02 |Première version.
 |0.2.0 |2026-11-04 |DOC-045 : un lien qui quitte le site affiche une marque de lien externe et s'ouvre dans le même onglet.
+|0.3.0 |2026-11-08 |DOC-047 : chaque format publié indique son droit d'auteur et sa licence.
 |===

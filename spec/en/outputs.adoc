@@ -17,6 +17,16 @@ Buyers must edit a template, but nobody should edit a published specification.
 PDF/UA-1 and PDF/A-2b both build on link:https://www.iso.org/standard/51502.html[PDF 1.7], so one file can meet both.
 PDF/UA-2 builds on link:https://www.iso.org/standard/75839.html[PDF 2.0] and would need a matching PDF/A part.
 
+[[DOC-047]]
+*DOC-047.* Each published output MUST state who holds its copyright and which license it is under.
+A {abbr-pdf} MUST give this on a notice page after its title page.
+That page MUST also give the version, the release date and the source {term-repository}.
+Each {abbr-html} page of a specification MUST give it too, apart from the license of the website itself.
+When code samples have another license, the notice MUST name that license as well.
+
+A reader may get a file alone, such as a printed or forwarded {abbr-pdf}.
+The notice then tells them whether and how they may reuse it.
+
 [[DOC-045]]
 *DOC-045.* In {abbr-html}, a link that leaves the project's site and repositories MUST show an external-link marker.
 The marker MUST carry text that screen readers announce, such as "external link".
@@ -43,4 +53,5 @@ A new tab that opens without warning confuses people who use screen readers.
 |Version |Date |Change
 |0.1.0 |2026-11-02 |First version.
 |0.2.0 |2026-11-04 |DOC-045: a link that leaves the site shows an external-link marker and opens in the same tab.
+|0.3.0 |2026-11-08 |DOC-047: each output states its copyright and license.
 |===
