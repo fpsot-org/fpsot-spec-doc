@@ -6,6 +6,14 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.3.1] - 2026-11-09
+
+No rule changes.
+
+### Changed
+
+- French guide « Ajouter une collectivité publique »: « demande de fusion » replaces « demande de tirage » for pull request, as in the term base.
+
 ## [0.3.0] - 2026-11-08
 
 ### Added
