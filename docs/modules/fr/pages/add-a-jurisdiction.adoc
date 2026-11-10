@@ -20,7 +20,7 @@ Ce guide montre comment comparer une spécification aux règles d'une collectivi
 
 . Mettez dans `last_checked` la date de votre lecture de la source, entre guillemets.
 
-. Ouvrez une demande de tirage.
+. Ouvrez une demande de fusion.
 Les vérifications valident alors le fichier et produisent les pages.
 
 == Exemple
